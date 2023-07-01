@@ -1,0 +1,12 @@
+{
+    "name": "Eliz",
+    "age": 26,
+    "email": "eliza1196@gmail.com",
+    "address": {
+        "street": "Asanbai",
+        "city": "Bishkek",
+        "state": "Chui",
+        "zip": "790000"
+    },
+    "hobbies": ["reading", "traveling", "photography"]
+}

@@ -1,0 +1,107 @@
+/* HW 1 part 1 GMAIL BLOCK */
+
+.email_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.inner_email_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid orange;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+/* HW 1 part 2  */
+.move_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.parent_block {
+    height: 500px;
+    width: 500px;
+    border: 2px solid orange;
+    position: relative;
+    margin: 20px auto;
+}
+
+.child_block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    left: 10px;
+}
+
+.inner_move_block {
+    margin-top: 50px;
+}
+
+/* HW 2 part 1  */
+
+.counter-block {
+    background-color: black;
+    padding: 40px;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;;
+    font-size: 50px;
+    padding: 20px;
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 15px;
+    background-color: #17cd4b;
+    color: white;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(210, 195, 32);
+}
+
+/* HW 5 */
+
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: black;
+}
+
+.som {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.usd {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.eur {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
